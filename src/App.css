@@ -1,0 +1,36 @@
+.container {
+  border: 2px solid black;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container__title {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.container__AreaGame {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+.container__btn.fade-out {
+  animation: fadeOut 1.5s forwards;
+  opacity: 0;
+}
+.container__btn span {
+  font-size: 12px;
+  color: red;
+}
+p {
+  margin: 5px 0;
+}
+@media screen and (max-width: 500px) {
+  .container__AreaGame {
+  width: 350px;
+}
+}
